@@ -28,12 +28,12 @@ class _DiceAppScreenState extends State<DiceAppScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.red,
+      backgroundColor: Colors.redAccent,
       appBar: AppBar(
         title: Text(
           'Dice App',
         ),
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.black,
       ),
       body: Center(
         child: Row(children: [
